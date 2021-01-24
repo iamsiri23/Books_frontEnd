@@ -1,0 +1,84 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Patua+One&family=Rubik:wght@300&family=Sniglet&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+header,
+section {
+    overflow-x: hidden;
+}
+
+.root {
+    --snigle-font: "Sniglet", cursive;
+    --Rublik: "Rublik", cursive;
+    --Lobster: "Lobster", cursive;
+    --Patua: "Patua One", cursive;
+    --light-black: #2e2c2caf;
+    --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
+    --light-gray: rgba(255, 255, 255, 0.5);
+
+
+}
+
+
+
+header a {
+    font-family: var(--snigle-font);
+    font-size: 0.9em;
+    color: whitesmoke;
+}
+
+header {
+
+    background: #dd2476;
+    background: linear-gradient(217deg, rgba(255, 0, 0, .8), rgba(255, 0, 0, 0) 70.71%);
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: white;
+    min-width: 160px;
+    box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+}
+
+.dropdown-content a:hover {
+    background: #ddd;
+
+}
+
+.dropdown:hover.dropdown-content {
+    display: block;
+}
+
+header.nav-item:last-child {
+    padding-right: 10.5em;
+}
+
+header.nav-item {
+    padding: 0.9em;
+}
+
+header.navbar-brand {
+    padding-left: 8rem;
+}
+
+header.nav-link:hover {
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
